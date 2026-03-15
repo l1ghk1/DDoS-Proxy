@@ -2,7 +2,7 @@
 
 Iniciar Server:
 ```cd c2```
-```python server.py```
+```uvicorn server:app --host 0.0.0.0 --port 8000 --reload```
 
 
 # Usar:
